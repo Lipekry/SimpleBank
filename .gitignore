@@ -1,11 +1,28 @@
-# Compiled class file
+# IDE Settings
+.idea/
+.vscode/
+.eclipse/
+.classpath
+.project
+
+# Build Files (Maven/Gradle)
+target/
+build/
+*.jar
+*.war
 *.class
 
-# Log file
+# Logs and Temporary Files
+logs/
 *.log
+*.tmp
+*~
+.#*
 
-# BlueJ files
-*.ctxt
+# System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
@@ -18,7 +35,11 @@
 *.zip
 *.tar.gz
 *.rar
+# Dependency Directories (if not managed by Maven/Gradle)
+bower_components/
+node_modules/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Environment Variables and Secrets
+.env
+application.properties.example # Example for sensitive properties
+application.yml.example # Example for sensitive properties
